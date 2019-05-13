@@ -1,14 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html>
+<html lang="en">
 
-  <head>
+    <head>
+
         <meta charset="utf-8">
+    
+        <!-- The Problem with iOS Safari and shrink-to-fit : https://bitsofco.de/ios-safari-and-shrink-to-fit -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as -->
+        <!-- Recommended by the Bootstrap team -->
+        <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    
+        <meta name="description" content="HVAG | Hudson Valley Advisory Group | Increasing agility and responsiveness via cloud integrated systems and services">
+        <meta name="keywords" content="HVAG | Hudson Valley Advisory Group | AWS | Amazon Web Services | Office365 | Infrastructure | Datacenter | Project Management | Agile | DevOps | Docker | Container">
+        <meta name="robots" content="noodp, noydir">
+    
         <title>{{ page.title }}</title>
-  </head>
+        <base href="/">
+    
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+        <!-- Font Awesome -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/css/mdb.min.css" integrity="sha256-JwqqfXjQksSxLILr240kfGN5VZd+5yqMT/LGBD4/3fw=" crossorigin="anonymous">
+    
+    </head>
 
-  <body>
-        {{ content }}
-  </body>
+    <body>
+            {{ content }}
+    </body>
 
 </html>

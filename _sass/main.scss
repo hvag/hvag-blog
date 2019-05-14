@@ -4,6 +4,12 @@
     padding-top: 80px;
 }
 
+.hvag-post-h1 {
+    font-family: $helveticaNeue;
+    color: $darkerGray;
+    font-weight: bold;
+}
+
 .posts > .post {
     padding-bottom: 2em;
     border-bottom: 1px solid $lightGray;

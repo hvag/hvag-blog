@@ -4,6 +4,26 @@
     padding-top: 80px;
 }
 
+.hvag-h1 {
+    font-size: 2.5rem;
+    line-height: 2.8125rem
+}
+
+.hvag-medium.hvag-h1 {
+    font-size: 3.125rem;
+    line-height: 3.4375rem
+}
+
+.hvag-large.hvag-h1 {
+    font-size: 3.75rem;
+    line-height: 4.0625rem
+}
+
+.hvag-h2 {
+    font-size: 1.875rem;
+    line-height: 2.1875rem
+}
+
 .hvag-post-h1 {
     font-family: $helveticaNeue;
     color: $darkerGray;

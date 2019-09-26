@@ -36,5 +36,5 @@ make use of personal information. We have outlined our privacy policy below.</p>
 <br />
 <p class="hvag-bold">Privacy Questions</p>
 <p>If you have a question about this Privacy Statement or HVAG's handling of your information, you can send an email to
-    <Link class="link-dull" to="mailto:advisor@hvadvisorygroup.com?Subject=Privacy"> advisor@hvadvisorygroup.com</Link>
+    <a class="link-dull" to="mailto:advisor@hvadvisorygroup.com?Subject=Privacy"> advisor@hvadvisorygroup.com</a>
 </p>
